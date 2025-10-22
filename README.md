@@ -1,5 +1,20 @@
 # WINNY iOS
 
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Plans](#plans)
+- [Getting Started](#getting-started)
+- [Development Requirements](#development-requirements)  
+- [Configuration](#configuration)
+- [Structure](#structure)
+- [In-App Purchases](#in-app-purchases)
+- [Third-Party Services & SDKs](#third-party-services--sdks)
+- [Deployment](#deployment)
+- [API](#api)
+
+
 ## Overview
 
 **Winny** helps you build your social health with conversations and life stories that forge deeper connections with your family and friends today.
