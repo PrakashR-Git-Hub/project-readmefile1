@@ -211,7 +211,6 @@ Winny supports **In-App Purchases (IAP)** via **StoreKit** for unlocking premium
 
 * Uses **REST API** for backend communication.
 * Networking powered by **Alamofire**.
-* For complete endpoint details, refer to the **Backend API Reference**.
 
 ---
 
