@@ -27,6 +27,7 @@
   - [Google Contacts (Gmail)](#google-contacts-gmail)
   - [Microsoft Outlook Contacts](#microsoft-outlook-contacts)
   - [Apple iCloud Contacts](#apple-icloud-contacts)
+  - [Google Places (Places API)](#google-places-places-api)
 - [Firebase Integration](#firebase-integration)
   - [Firebase Authentication](#firebase-authentication)
   - [Firebase Crashlytics](#firebase-crashlytics)
@@ -202,6 +203,11 @@ ICEBRKN supports iOS In-App Purchases for premium feature access.
 - Uses **Contacts.framework (NSContacts)**
 - Accesses local and iCloud-synced contacts
 - Requires system-level user permission
+
+### Google Places (Places API)
+- Enables location search and place discovery functionality
+- Provides detailed place information including name, address, coordinates, and place ID
+- Supports autocomplete to improve location selection and user experience
 
 ## Firebase Integration
 
