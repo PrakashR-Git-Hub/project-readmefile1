@@ -224,11 +224,21 @@ ICEBRKN supports iOS In-App Purchases for premium feature access.
 
 ## Security & Data Protection
 
-- Secure storage using **Keychain Services** for:
-  - Authentication tokens
-  - Encrypted user data
+ICEBRKN places strong emphasis on data security and user privacy.
+
+### Encryption
+
+- The app uses **Apple CryptoKit** to encrypt and decrypt sensitive API responses.
+- All contact data retrieved from external sources (Gmail, iCloud, Outlook) is secured using industry-standard cryptographic practices.
+- Encryption ensures that contact information remains protected both **in transit** and **at rest** within the app.
+
+### Secure Storage
+
+- Sensitive data is securely stored using **Keychain Services**, including:
+  - Authentication and access tokens
+  - Encrypted user and contact data
   - Session identifiers
-- All data is sandboxed and securely persisted across app launches
+- All stored data is sandboxed per app and securely persists across app launches, preventing unauthorized access.
 
 ---
 
