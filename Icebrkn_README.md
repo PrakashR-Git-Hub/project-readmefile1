@@ -1,5 +1,42 @@
 # ICEBRKN iOS
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Core Features](#core-features)
+  - [Data Cleansing](#data-cleansing)
+  - [Data Verification](#data-verification)
+  - [Dossier Creation](#dossier-creation)
+  - [Community-Enriched Profiles](#community-enriched-profiles)
+- [Subscription Plans](#subscription-plans)
+- [Pricing](#pricing)
+  - [Monthly Plan](#monthly-plan)
+  - [Yearly Plan](#yearly-plan)
+- [Getting Started](#getting-started)
+- [Development Requirements](#development-requirements)
+- [Configuration](#configuration)
+  - [Schemes](#schemes)
+  - [Environment Files](#environment-files)
+- [Project Structure](#project-structure)
+  - [Common](#common)
+  - [Modules](#modules)
+  - [Resources](#resources)
+  - [API](#api)
+- [In-App Purchases](#in-app-purchases)
+- [Third-Party Services & SDKs](#third-party-services--sdks)
+  - [Google Contacts (Gmail)](#google-contacts-gmail)
+  - [Microsoft Outlook Contacts](#microsoft-outlook-contacts)
+  - [Apple iCloud Contacts](#apple-icloud-contacts)
+- [Firebase Integration](#firebase-integration)
+  - [Firebase Authentication](#firebase-authentication)
+  - [Firebase Crashlytics](#firebase-crashlytics)
+- [Security & Data Protection](#security--data-protection)
+- [Infrastructure & Safety](#infrastructure--safety)
+- [Deployment](#deployment)
+  - [App Store Distribution](#app-store-distribution)
+- [Backend API](#backend-api)
+- [License](#license)
+
 ## Overview
 
 ICEBRKN is a purpose-driven networking platform that helps individuals connect through accurate, verified, and enriched information. The iOS application enables users to import contacts from multiple sources, cleanse and deduplicate data, and generate rich profile dossiers that provide meaningful insights into people within their network.
@@ -132,7 +169,7 @@ Networking and backend communication:
 
 ---
 
-## In-App Purchases (IAP)
+## In-App Purchases
 
 ICEBRKN supports iOS In-App Purchases for premium feature access.
 
@@ -165,8 +202,6 @@ ICEBRKN supports iOS In-App Purchases for premium feature access.
 - Uses **Contacts.framework (NSContacts)**
 - Accesses local and iCloud-synced contacts
 - Requires system-level user permission
-
----
 
 ## Firebase Integration
 
