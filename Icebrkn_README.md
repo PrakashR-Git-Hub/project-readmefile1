@@ -152,7 +152,7 @@ Shared resources used throughout the app:
 
 ### Modules
 Feature-based modular structure. Each module typically contains:
-- **Views:** UI components (UIViewController, SwiftUI views, Storyboards/XIBs)
+- **Views:** UI components (UIViewController, XIBs)
 - **ViewModels:** Presentation logic and state handling
 - **Models:** Feature-specific data models
 
