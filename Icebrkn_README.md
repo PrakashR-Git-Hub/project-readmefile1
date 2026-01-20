@@ -269,7 +269,7 @@ ICEBRKN places strong emphasis on data security and user privacy.
 
 - Communication via **REST APIs**
 - Networking powered by **Alamofire**
-- - Refer to the [Backend API Reference](https://api.icebrkn.com/docs) for endpoint documentation
+- Refer to the [Backend API Reference](https://api.icebrkn.com/docs) for endpoint documentation
 
 ---
 
